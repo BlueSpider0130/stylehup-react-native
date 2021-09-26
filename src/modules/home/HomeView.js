@@ -22,7 +22,7 @@ import Loader from '../../components/Loader';
 
 // import { ScrollView } from 'react-native-gesture-handler';
 
-export default function HomeScreen({ isExtended, setIsExtended }) {
+export default function HomeScreen(props) {
   // const rnsUrl = 'https://reactnativestarter.com';
   // const handleClick = () => {
   //   Linking.canOpenURL(rnsUrl).then(supported => {
@@ -123,6 +123,13 @@ const search = () => {
     setModalVisible(true)
   } else {
     setLoadingState(true)
+    setTimeout(() => {
+      console.log(props.navigation.navigate)
+      setLoadingState(false);
+      props.navigation.navigate('SearchResult', {
+        data: "asfasdfasdf"
+      });
+    }, 1000);
   }
   console.log('event:', valueEv, 'location:', valueLc, 'serviceDate:', valueSd)
 };
