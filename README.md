@@ -1,4 +1,4 @@
-# React Native Starter 🚀
+# React Native Stylehup 🚀
 
 <!-- [View Demo](https://play.google.com/store/apps/details?id=com.reactnativestarter.upd) | [Download](https://github.com/flatlogic/react-native-starter.git) | [More templates](https://flatlogic.com/templates) | [Support forum](https://flatlogic.com/forum) -->
 
